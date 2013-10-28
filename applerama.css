@@ -1,0 +1,44 @@
+h1, p {
+	text-align: center;
+}
+
+#apple, #apple img {
+	width: 30px;
+	height: 30px;
+}
+
+#apple {
+	top: 0px;
+	position: absolute;
+}
+
+#basket, #basket img {
+	width: 80px;
+	height: 80px;
+}
+
+#basket {
+	top: 420px;
+	left: 210px;
+	position: absolute;
+
+
+}
+
+#playField {
+	border: 2px black solid;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#score, #applesCaught, #applesMissed {
+	float: left;
+	clear: left;
+}
+
+#end {
+	text-align: center;
+}
